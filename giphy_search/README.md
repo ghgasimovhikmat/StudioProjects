@@ -1,16 +1,10 @@
-# giphy_search
 
-A new Flutter project.
+Flutter project.
 
-## Getting Started
+## Requirements:
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Implement "live search" - i.e. request is sent in N milliseconds (for example 300) after the user has entered some input;
+Results are displayed in the list or grid of items;
+Request pagination - load enough items to populate the list and load more items every time the user scrolls to the end of the list (limit/offset);
+UI can be very simple but should be responsive, snappy, and implemented according to the platform guidelines;
